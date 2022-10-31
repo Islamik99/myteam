@@ -1,0 +1,118 @@
+.header__inner{
+    background-image: url("/images/header-back.png");
+    background-repeat: no-repeat;
+    width: 1350px;
+}
+
+.top__header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:689px){
+    .top__header{
+        flex-direction: column;
+        padding-left: 39px;
+        padding-top: 72px;
+    }
+}
+
+.top__wrapper{
+    margin-left: -213px;
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 77px;
+    padding-left: 165px;
+}
+
+.header__logo{
+    margin-left: 165px;
+}
+
+.header__list{
+    position: relative;
+    right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header__item{
+    margin-right: 40px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.header__item:nth-last-child(1){
+    margin-right: 0;
+}
+
+.contact__link{
+    position: relative;
+    right: -350px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 9px 33px 11px 32px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.header__title{
+    margin: 0;
+    padding-left: 165px;
+    padding-top: 133px;
+    padding-bottom: 250px;
+    width: 691px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+
+.desc{
+    position: relative;
+}
+
+.desc__text{
+    margin-left: 109px;
+    margin-top: -10px;
+    width: 445px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.line{
+    position: absolute;
+    top: -90px;
+    left: 111px;
+    display: inline-block;
+    width: 50px;
+    border: 2px solid #79C8C7;
+}
+
+strong{
+   color: #F67E7E;
+}
+

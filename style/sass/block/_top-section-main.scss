@@ -1,0 +1,91 @@
+
+.main::after{
+    position: relative;
+}
+
+.main__inner{
+    position: relative;
+    top: -35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("/images/main-back.png");
+    background-repeat: no-repeat;
+    height: 630px;
+    width: 1350px;
+}
+
+.wrapper__bottom::after{
+    position: absolute;
+    right: -217px;
+    top: 216px;
+    display: block;
+    content: "";
+    width: 172px;
+    height: 244px;
+    background-image: url("/images/main-after.svg");
+    background-repeat: no-repeat;
+}
+
+.wrapper__bottom{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    margin-top: 44px;
+    margin-right: 145px;
+}
+
+.img{
+    margin-right: 23px;
+}
+
+.main__line{
+    position: absolute;
+    top: 132px;
+    left: 167px;
+    display: inline-block;
+    width: 50px;
+    border: 2px solid #F67E7E;
+}
+
+.title {
+    bottom: 264px;
+    position: absolute;
+    padding-left: 165px;
+    width: 578px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.text1{
+   
+    margin-bottom: 16px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+}
+
+.text{ 
+    width: 445px;   
+    margin: 0;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.right__section{
+    display: flex;
+    align-items: center;
+}

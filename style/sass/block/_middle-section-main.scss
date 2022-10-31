@@ -1,0 +1,100 @@
+
+.middle__section{
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    margin: -75px 0;
+    width: 1350px;
+    height: 820px;
+}
+
+.middle__title{
+    margin-right: 214px;
+    padding-top: 140px;
+    padding-left: 172px;
+    padding-bottom: 92px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.middle__title--strong{
+    color: #79C8C7;  
+}
+
+.middle__list--box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -57px;
+}
+
+.active__list{
+    margin: 0 40px;
+}
+
+.middle__list{
+    position: relative;
+}
+
+.middle__list::before{
+    position: absolute;
+    left: 142px;
+    top: -20px;
+    display: block;
+    content: "";
+    width: 67px;
+    height: 56px;
+    background-image: url("/images/qoshtirnq.svg");
+    background-repeat: no-repeat;
+}
+
+.middle__item{
+    width: 350px;
+}
+
+.list__title{
+    position: relative;
+    z-index: 2;
+    width: 350px;
+    padding-bottom: 24px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.list__strong{
+    margin-left: 128px;
+    padding-bottom: 2px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+
+.list__strong:nth-child(2){
+    margin-left: 116px;
+}
+
+.list__text{
+    padding-bottom: 32px;
+    font-family: 'Livvic';
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.list__img--middle{
+    margin-left: 141px;
+}

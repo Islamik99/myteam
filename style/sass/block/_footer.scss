@@ -1,0 +1,78 @@
+
+.footer__inner{
+    background-image: url("/images/footer-back.png");
+    background-repeat: no-repeat;
+    width: 1350px;
+    position: relative;
+    bottom: 4px;
+}
+
+.footer__img{
+    padding-left: 165px;
+    padding-top: 48px;
+    padding-bottom: 25px;
+}
+
+.footer__list{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left: 165px;
+}
+
+.footer__item:nth-last-child(1){
+    margin-right: 0;
+}
+
+.footer__inner{
+    display: flex;
+    align-items: center;
+}
+
+.footer__item{    
+    margin-right: 40px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer__right--box{
+    padding-right: 335px;
+    padding-left: 125px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer__logo--list{
+    display: flex;
+    align-items: center;
+    padding-bottom: 51px;
+}
+
+.footer__logo--item{
+    margin-right: 16px;
+
+}
+
+.footer__logo--item:nth-last-child(1){
+    margin-right: 0;
+}
+
+.footer__strong{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
